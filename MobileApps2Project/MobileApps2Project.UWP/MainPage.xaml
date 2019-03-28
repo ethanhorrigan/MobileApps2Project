@@ -10,7 +10,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid Background="#494ca2">
-        <StackPanel Background="#8186d5" HorizontalAlignment="Left" Height="742" Margin="10,10,0,0" VerticalAlignment="Top" Width="630"/>
+        <StackPanel Background="#8186d5" HorizontalAlignment="Center" Height="620" VerticalAlignment="Center" Width="1180"/>
 
     </Grid>
 </forms:WindowsPage>
