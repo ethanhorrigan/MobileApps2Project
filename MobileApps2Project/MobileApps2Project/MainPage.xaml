@@ -11,10 +11,18 @@
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="*" />
+                    <RowDefinition Height="50%" />
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
             </Grid>
+
+        <StackLayout Grid.Row="1">
+            <Button Text="Play" />
+        </StackLayout>
+
+        <StackLayout Grid.Row="2">
+            <Button Text="Quit" />
+        </StackLayout>
     </StackLayout>
 
 </ContentPage>
