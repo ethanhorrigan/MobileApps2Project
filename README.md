@@ -17,6 +17,10 @@
 * Visual Studio 2017
 
 
+## Color Scheme
+
+Using [Adobe Color](https://color.adobe.com/create/color-wheel/) to generate a color scheme for my app.
+
 ## Research
 
 
