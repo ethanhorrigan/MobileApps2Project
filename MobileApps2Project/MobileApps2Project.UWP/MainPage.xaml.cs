@@ -23,5 +23,10 @@ namespace MobileApps2Project.UWP
 
             LoadApplication(new MobileApps2Project.App());
         }
+
+        private void TextBlock_SelectionChanged()
+        {
+
+        }
     }
 }

@@ -10,3 +10,4 @@ D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\obj\Debug\netstandard2.0\XamlC.stamp
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\obj\Debug\netstandard2.0\MobileApps2Project.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\obj\Debug\netstandard2.0\MobileApps2Project.pdb
+D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\obj\Debug\netstandard2.0\Timetable.xaml.g.cs

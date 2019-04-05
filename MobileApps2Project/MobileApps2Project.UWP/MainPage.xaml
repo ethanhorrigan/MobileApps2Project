@@ -9,8 +9,14 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Background="#494ca2">
-        <StackPanel Background="#8186d5" HorizontalAlignment="Center" Height="620" VerticalAlignment="Center" Width="1180"/>
-
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="44"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Column 1 sizes to its content." FontSize="24"/>
     </Grid>
+
 </forms:WindowsPage>
