@@ -5,24 +5,32 @@
              x:Class="MobileApps2Project.MainPage">
 
 
-    <StackLayout>
+    <StackLayout BackgroundColor="#8BC34A">
         <Grid>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto" />
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="auto" />
+            </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="50%" />
                     <RowDefinition Height="*" />
+                    <RowDefinition Height="2*" />
                 </Grid.RowDefinitions>
-            </Grid>
 
-        <StackLayout Grid.Row="1">
-            <Button Text="Play" />
-        </StackLayout>
 
-        <StackLayout Grid.Row="2">
-            <Button Text="Quit" />
-        </StackLayout>
+            <StackLayout BackgroundColor="#E6FFC9" Grid.Column="0"></StackLayout>
+            <StackLayout BackgroundColor="#E6FFC9" Grid.Column="2"></StackLayout>
+            <!--Searchbar stack-->
+            <StackLayout Grid.Column="1" Orientation="Horizontal" HorizontalOptions="Center" BackgroundColor="LightSeaGreen">
+                <SearchBar x:Name="ingSearch" Placeholder="Enter Ingredient: " SearchButtonPressed="IngSearch_SearchButtonPressed"/>
+                <Button Text="Click me" Clicked="Button_Clicked" />
+            </StackLayout>
+
+        </Grid>
+           
+        
+
+
     </StackLayout>
 
 </ContentPage>
