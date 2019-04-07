@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-07T18:45:07.824</Modified>
+      <Modified>2019-04-07T20:53:08.953</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\MobileApps2Project.UWP.exe">
       <PackagePath>entrypoint\MobileApps2Project.UWP.exe</PackagePath>
-      <Modified>2019-04-07T18:45:07.041</Modified>
+      <Modified>2019-04-07T20:53:08.105</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lurch\.nuget\packages\microsoft.bcl.async\1.0.168\lib\win8\Microsoft.Threading.Tasks.Extensions.dll">
       <PackagePath>Microsoft.Threading.Tasks.Extensions.dll</PackagePath>
@@ -736,7 +736,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\bin\Debug\netstandard2.0\MobileApps2Project.dll">
       <PackagePath>MobileApps2Project.dll</PackagePath>
-      <Modified>2019-04-07T18:45:00.437</Modified>
+      <Modified>2019-04-07T20:53:01.359</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\bin\Debug\netstandard2.0\MobileApps2Project.dll.config">
       <PackagePath>MobileApps2Project.dll.config</PackagePath>
@@ -977,11 +977,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-04-07T18:45:06.780</Modified>
+      <Modified>2019-04-07T20:53:07.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-04-07T18:45:06.780</Modified>
+      <Modified>2019-04-07T20:53:07.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -997,7 +997,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\Core\MobileApps2Project.UWP.exe">
       <PackagePath>MobileApps2Project.UWP.exe</PackagePath>
-      <Modified>2019-04-07T18:45:07.819</Modified>
+      <Modified>2019-04-07T20:53:08.948</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

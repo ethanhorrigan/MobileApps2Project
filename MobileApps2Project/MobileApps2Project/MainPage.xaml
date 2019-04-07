@@ -9,26 +9,32 @@
         <Grid>
 
             <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="2*" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
             </Grid.RowDefinitions>
 
 
-            <!--Input Stack stack-->
+            <!--Gender -->
             <StackLayout Grid.Row="0" Orientation="Horizontal" HorizontalOptions="Center" BackgroundColor="LightSeaGreen" Margin="50, 0,0,0">
-                <StackLayout Orientation="Horizontal">
-                    <Label Text="Age:" FontSize="Large" />
-                    <Entry Placeholder="Age" />
-                </StackLayout>
-                <StackLayout Orientation="Horizontal">
-                    <Label Text="Weight (kg):" />
-                    <Entry Placeholder="Weight" />
-                </StackLayout>
+
+                <Picker Title="Gender" />
+            </StackLayout>
+            <!--Input Stack stack-->
+            <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="Center" BackgroundColor="LightSeaGreen" Margin="50, 0,0,0">
+                <Label Text="Age:" FontSize="Large" />
+                <Entry Placeholder="Age" />
+            </StackLayout> 
+            <!--Input Stack stack-->
+            <StackLayout Grid.Row="2" Orientation="Horizontal" HorizontalOptions="Center" BackgroundColor="LightSeaGreen" Margin="50, 0,0,0">
+                <Label Text="Weight (kg):" />
+                <Entry Placeholder="Weight" />
             </StackLayout>
 
-            <!--Searchbar stack-->
-            <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="Center" BackgroundColor="LightSeaGreen">
-                <Button Text="Generate Plan" Clicked="Button_Clicked" />
+            <StackLayout Orientation="Horizontal" Grid.Row="3">
+                <Label HorizontalOptions="StartAndExpand" Text="Label" />
+                <Button HorizontalOptions="End" Text="Button" />
             </StackLayout>
 
         </Grid>
