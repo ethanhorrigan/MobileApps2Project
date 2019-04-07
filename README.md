@@ -15,12 +15,16 @@
 * [Xamarin](https://visualstudio.microsoft.com/xamarin/)
 * Written in C#/XAML
 * Visual Studio 2017
+* [Spoonacular API] (https://rapidapi.com/spoonacular/api/recipe-food-nutrition) 
 
 
-## Color Scheme
+## Art
 
 * Using [Adobe Color](https://color.adobe.com/create/color-wheel/) to generate a color scheme for my app.
 ![Scheme](https://github.com/ethanhorrigan/MobileApps2Project/blob/master/Screenshots/ColorPalette.PNG "Color Scheme")
+
+* Created the Logo in Photoshop using the aboce Color Scheme
+![Logo](https://github.com/ethanhorrigan/MobileApps2Project/blob/master/Screenshots/400.png "Logo")
 
 ## Research
 
