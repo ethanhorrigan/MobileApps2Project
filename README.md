@@ -15,7 +15,7 @@
 * [Xamarin](https://visualstudio.microsoft.com/xamarin/)
 * Written in C#/XAML
 * Visual Studio 2017
-* [Spoonacular API] (https://rapidapi.com/spoonacular/api/recipe-food-nutrition) 
+* [Spoonacular API](https://rapidapi.com/spoonacular/api/recipe-food-nutrition) 
 
 
 ## Art
