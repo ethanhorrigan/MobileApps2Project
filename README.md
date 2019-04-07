@@ -35,6 +35,6 @@
 
 ## Authors
 
-* **Ethan Horrigan** - *Developer* - [Ethan Horrigan](https://github.com/ethanhorrigan)
+* *Developer* - [Ethan Horrigan](https://github.com/ethanhorrigan)
 
 
