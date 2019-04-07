@@ -71,47 +71,5 @@ namespace MobileApps2Project
             System.Diagnostics.Debug.WriteLine("Search Clicked");
         }
 
-
-        /*
-        static async Task<SubstituteRootObject> GetRootInfo() {
-            HttpResponse<SubstituteRootObject> response = await Unirest.get("https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/food/ingredients/substitutes?ingredientName=butter")
-            .header("X-RapidAPI-Host", "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com")
-            .header("X-RapidAPI-Key", apiKey)
-            .asJson();
-            return response.Body;
-        }
-
-        const string _baseUrl = "http://api.themoviedb.org/3/";
-        const string _pageString = "&page=";
-
-        //GET Example
-        public static async Task<ObservableCollection<SubstituteRootObject>> GetTopRatedMoviesAsync()
-        {
-            HttpClient client = new HttpClient();
-            //_apiKey = themoviedb api key, page = page size 1 = first 20 movies;
-            string topRatedUrl = _baseUrl + "movie/top_rated?" + _apiKey + _pageString + page;
-            HttpResponseMessage result = await client.GetAsync(topRatedUrl, CancellationToken.None);
-
-            if (result.IsSuccessStatusCode)
-            {
-                try
-                {
-                    string content = await result.Content.ReadAsStringAsync();
-                    ObservableCollection<Movie> MovieList = GetJsonData(content);
-                    //return a ObservableCollection to fill a list of top rated movies
-                    return MovieList;
-
-                }
-                catch (Exception ex)
-                {
-                    //Model Error
-                    Console.WriteLine(ex);
-                    return null;
-                }
-            }
-            //Server Error or no internet connection.
-            return null;
-        }
-        */
     }
 }
