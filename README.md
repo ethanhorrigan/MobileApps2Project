@@ -24,7 +24,7 @@
 ![Scheme](https://github.com/ethanhorrigan/MobileApps2Project/blob/master/Screenshots/ColorPalette.PNG "Color Scheme")
 
 * Created the Logo in Photoshop using the aboce Color Scheme
-![Logo](https://github.com/ethanhorrigan/MobileApps2Project/blob/master/Screenshots/400.png "Logo")
+* ![Logo](https://github.com/ethanhorrigan/MobileApps2Project/blob/master/Screenshots/400.png "Logo")
 
 ## Research
 
