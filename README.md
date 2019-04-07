@@ -28,10 +28,32 @@
 
 ## Research
 
-* Using the Mifflin-St. Jeor Equation equation to calculate Calorie intake: 
-* Females = 10 x (Weight in kg) + 6.25 x (Height in cm) - 5 x age - 161; 
-* Males= 10 x (Weight in kg) + 6.25 x (Height in cm) - 5 x age + 5;
-* https://www.livestrong.com/article/178764-caloric-intake-formula/
+* Using BMR (Basal Metabloic Rate) to calculate Calorie intake
+> Women:
+
+10-17 years 
+BMR: 13.4 x weight + 692
+
+18-29 years 
+BMR: 14.8 x weight + 487
+
+30-59 years 
+BMR: 8.3 x weight + 846
+
+So if you are a 26-year-old woman who weighs 63kgs your BMR is 1,419.4 calories per day.
+
+Men:
+
+10-17 years 
+BMR: 17.7 x weight + 657
+
+18-29 years 
+BMR: 15.1 x weight + 692
+
+30-59 years 
+BMR: 11.5 x weight + 873
+
+* https://www.bodyandsoul.com.au/nutrition/nutrition-tips/this-is-the-correct-amount-of-calories-you-should-be-consuming-a-day/news-story/3353257b266ea8c1a316c9c2ade5493c
 
 ## Authors
 
