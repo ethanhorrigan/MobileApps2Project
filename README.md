@@ -28,6 +28,8 @@
 
 ## Research
 
+* Using the Mifflin-St. Jeor Equation equation to calculate Calorie intake
+https://www.livestrong.com/article/178764-caloric-intake-formula/
 
 ## Authors
 
