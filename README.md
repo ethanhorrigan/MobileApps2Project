@@ -28,11 +28,10 @@
 
 ## Research
 
-* Using the Mifflin-St. Jeor Equation equation to calculate Calorie intake
-* The equation is as follows: 
+* Using the Mifflin-St. Jeor Equation equation to calculate Calorie intake: 
 * Females = 10 x (Weight in kg) + 6.25 x (Height in cm) - 5 x age - 161; 
-* Males= 10 x (Weight in kg) + 6.25 x (Height in cm) - 5 x age + 5.
-https://www.livestrong.com/article/178764-caloric-intake-formula/
+* Males= 10 x (Weight in kg) + 6.25 x (Height in cm) - 5 x age + 5;
+* https://www.livestrong.com/article/178764-caloric-intake-formula/
 
 ## Authors
 
