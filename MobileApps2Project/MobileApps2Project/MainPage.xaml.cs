@@ -21,6 +21,15 @@ namespace MobileApps2Project
         static string query = "butter";
         string url = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/food/ingredients/substitutes?ingredientName="+query+"";
 
+        /* 
+         * User Variables
+         */
+        private int age;
+        private double weight;
+        private double calories;
+
+
+
         public MainPage()
         {
             InitializeComponent();
@@ -66,9 +75,48 @@ namespace MobileApps2Project
             }
         }
 
-        private void IngSearch_SearchButtonPressed(object sender, EventArgs e)
+        /*
+         * CalculateBMR Function which calculates BMR (Basal Metabolic Rate)
+         * Resulting in calorie intake per day depending on gender, weight & age
+         */
+        private double CalculateBMR(int a, double w)
         {
-            System.Diagnostics.Debug.WriteLine("Search Clicked");
+            double bmr = 0;
+
+            //Female Calculations
+            if(age >= 10 || age <= 17)
+            {
+                bmr = 13.4 * weight + 692;
+            }
+            //18-29 years BMR: 14.8 x weight + 487
+            else if (age >= 18 || age <= 29)
+            {
+                bmr = 14.8 * weight + 487;
+            }
+            //30 - 59 years BMR: 8.3 x weight +846
+            else
+            {
+                bmr = 8.3 * weight + 846;
+            }
+
+            //Male Calculations
+            //BMR: 17.7 x weight + 657
+            if (age >= 10 || age <= 17)
+            {
+                bmr = 17.7 * weight + 657;
+            }
+            //18 - 29 years BMR: 15.1 x weight +692
+            else if (age >= 18 || age <= 29)
+            {
+                bmr = 15.1 * weight + 692;
+            }
+            //30-59 years BMR: 11.5 x weight + 873
+            else
+            {
+                bmr = 11.5 * weight + 873;
+            }
+
+            return bmr;
         }
 
     }
