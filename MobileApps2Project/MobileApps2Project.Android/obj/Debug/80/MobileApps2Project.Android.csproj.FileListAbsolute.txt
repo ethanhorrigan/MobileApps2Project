@@ -35,6 +35,7 @@ D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\80\R.txt
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\80\uploadflags.txt
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\bin\Debug\netstandard2.0\MobileApps2Project.dll
+D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\bin\Debug\netstandard2.0\MobileApps2Project.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\bin\Debug\FormsViewGroup.pdb
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\bin\Debug\Mono.Android.pdb
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\bin\Debug\mscorlib.pdb
