@@ -12,3 +12,4 @@ D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\obj\Debug\netstandard2.0\Response.xaml.g.cs
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\obj\Debug\netstandard2.0\XamlC.stamp
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\obj\Debug\netstandard2.0\Plan.xaml.g.cs
+D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\obj\Debug\netstandard2.0\MobileApps2Project.csprojAssemblyReference.cache

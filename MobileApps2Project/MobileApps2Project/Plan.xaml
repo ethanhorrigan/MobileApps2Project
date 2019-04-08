@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApps2Project.Plan">
+    <ContentPage.Content>
+
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+
+            <BoxView Grid.Column="0" BackgroundColor="Accent"></BoxView>
+            <BoxView Grid.Column="1" BackgroundColor="Plum"></BoxView>
+            <BoxView Grid.Column="2" BackgroundColor="RoyalBlue"></BoxView>
+            
+            <StackLayout Grid.Column="0" Orientation="Vertical" HorizontalOptions="CenterAndExpand" Padding="0, 100, 0, 0">
+                <Label Text="Meal 1" />
+                <Label x:Name="mTitle_1" Text="Meal 1" />
+            </StackLayout>
+            
+            <StackLayout Grid.Column="1">
+                <Label Text="Meal 2" />
+                <Label x:Name="mTitle_2" Text="Meal 2" />
+            </StackLayout>
+            
+            <StackLayout Grid.Column="2">
+                <Label Text="Meal 3" />
+                <Label x:Name="mTitle_3" Text="Meal 3" />
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
