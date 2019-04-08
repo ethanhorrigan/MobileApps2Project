@@ -5,7 +5,7 @@
              x:Class="MobileApps2Project.MainPage">
 
 
-    <Grid>
+    <Grid BackgroundColor="#8bc34a">
 
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
@@ -43,33 +43,31 @@
                 <Button HorizontalOptions="End" Text="Button" />
             </StackLayout>-->
 
-        <BoxView BackgroundColor="CadetBlue" Grid.Row="0"></BoxView>
-        <BoxView BackgroundColor="RoyalBlue" Grid.Row="1"></BoxView>
-        <BoxView BackgroundColor="Coral" Grid.Row="2"></BoxView>
-        <BoxView BackgroundColor="Coral" Grid.Row="3"></BoxView>
-        <BoxView BackgroundColor="Green" Grid.Row="4"></BoxView>
+        <BoxView BackgroundColor="#dcedc8" Grid.Row="0"></BoxView>
+        <BoxView BackgroundColor="#dcedc8" Grid.Row="1"></BoxView>
+        <BoxView BackgroundColor="#dcedc8" Grid.Row="2"></BoxView>
+        <BoxView BackgroundColor="#dcedc8" Grid.Row="3"></BoxView>
 
-        
-        <StackLayout Orientation="Vertical" Grid.Row="1">
 
-            <Picker Title="Gender"/>
 
-        </StackLayout>
-        
-        <StackLayout Orientation="Vertical" Grid.Row="2" HorizontalOptions="Center">
-            <Label Text="Age:"/>
-            <Entry x:Name="ageEntry" Placeholder="Age" TextChanged="AgeEntry_TextChanged" />
+
+        <StackLayout Grid.Row="1" Orientation="Vertical" Padding="0,50,0,50">
+            <Label FontSize="Large" TextColor="#212121" Text="Gender:" HorizontalOptions="Center"/>
+            <Label FontSize="Medium" TextColor="#757575" x:Name="mTitle_1" Text="Hot Cross Buns" HorizontalOptions="Center"/>
+            <Picker Title="Gender" />
         </StackLayout>
 
-        <StackLayout Orientation="Vertical" Grid.Row="3" HorizontalOptions="Center">
-            <Label Text="Weight (kg):"/>
-            <Entry x:Name="weightEntry" Placeholder="Weight" TextChanged="WeightEntry_TextChanged" />
+        <StackLayout Grid.Row="2" Orientation="Vertical" Padding="0,50,0,50">
+            <Label FontSize="Large" TextColor="#212121" Text="Age:" HorizontalOptions="Center"/>
+            <Label FontSize="Medium" TextColor="#757575" x:Name="mTitle_2" Text="Hot Cross Buns" HorizontalOptions="Center"/>
+        </StackLayout>
+
+        <StackLayout Grid.Row="3" Orientation="Vertical" Padding="0,50,0,50">
+            <Label FontSize="Large" TextColor="#212121" Text="Weight (kg):" HorizontalOptions="Center"/>
+            <Label FontSize="Medium" TextColor="#757575" x:Name="mTitle_3" Text="Hot Cross Buns" HorizontalOptions="Center"/>
         </StackLayout>
 
 
-        <StackLayout Grid.Row="4" Orientation="Horizontal" HorizontalOptions="Center">
-            <Button x:Name="generateBtn" Text="Click!" Clicked="GenerateBtn_Clicked"></Button>
-        </StackLayout>
 
     </Grid>
 

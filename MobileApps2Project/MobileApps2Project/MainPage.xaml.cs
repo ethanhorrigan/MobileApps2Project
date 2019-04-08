@@ -19,7 +19,13 @@ namespace MobileApps2Project
         private bool gender = false;
         private double age;
         private double weight;
-        private double calories;
+        public static double calories;
+
+
+        Dictionary<string, int> gend = new Dictionary<string, int> {
+            { "Male", 0 },
+            { "Female", 1 }
+        };
 
         /*
          * API Details
@@ -34,6 +40,7 @@ namespace MobileApps2Project
         public MainPage()
         {
             InitializeComponent();
+            AddGenderPicker();
         }
 
         /*
@@ -41,38 +48,66 @@ namespace MobileApps2Project
          * Creating a new HttpClient to allow for requests to the Spoonacular API
          * Finally, converting from JSON
          */
-        private async void GetProduct(double c)
+
+
+            private void AddGenderPicker()
         {
-            calories = c;
-            string url = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/mealplans/generate?timeFrame=day&targetCalories=" + calories + "";
-            System.Diagnostics.Debug.WriteLine("hello");
-            //Creating a Http client
-            HttpClient client = new HttpClient();
-            //Adding 2 Custom Defualt Headers
-            client.DefaultRequestHeaders.Add("X-RapidAPI-Host", host);
-            client.DefaultRequestHeaders.Add("X-RapidAPI-Key", apiKey);
-
-            string request = await client.GetStringAsync(url);
-            // Parsing into JSON
-            //var data = JsonConvert.DeserializeObject<RootObject>(response);
-            var response = JsonConvert.DeserializeObject<RootObject>(request);
-
-            // Debug 
-
-
-            for (int i = 0; i < response.meals.Count; i++)
+            Label header = new Label
             {
-                System.Diagnostics.Debug.WriteLine(response.meals[i].title);
-                System.Diagnostics.Debug.WriteLine(response.meals[i].readyInMinutes);
+                Text = "Picker",
+                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
+                HorizontalOptions = LayoutOptions.Center
+            };
 
+            Picker picker = new Picker
+            {
+                Title = "Color",
+                VerticalOptions = LayoutOptions.CenterAndExpand
+            };
 
+            foreach (string gender in gend.Keys)
+            {
+                picker.Items.Add(gender);
             }
 
-            System.Diagnostics.Debug.WriteLine(response.nutrients.calories);
-            System.Diagnostics.Debug.WriteLine(response.nutrients.protein);
-            System.Diagnostics.Debug.WriteLine(response.nutrients.fat);
-            System.Diagnostics.Debug.WriteLine(response.nutrients.carbohydrates);
+            // Create BoxView for displaying picked Color
+            BoxView boxView = new BoxView
+            {
+                WidthRequest = 150,
+                HeightRequest = 150,
+                HorizontalOptions = LayoutOptions.Center,
+                VerticalOptions = LayoutOptions.CenterAndExpand
+            };
+
+            {
+                if (picker.SelectedIndex == -1)
+                {
+                    boxView.Color = Color.Default;
+                }
+                else
+                {
+                    //string genderType = picker.Items[picker.SelectedIndex];
+                    //boxView = nameToColor[genderType];
+                }
+            };
+
+            // Accomodate iPhone status bar.
+            this.Padding = new Thickness(10, Device.OnPlatform(20, 0, 0), 10, 5);
+
+            // Build the page.
+            this.Content = new StackLayout
+            {
+                Children =
+            {
+                header,
+                picker,
+                boxView
+            }
+            };
+
         }
+
+
 
         /*
          * CalculateBMR Function which calculates BMR (Basal Metabolic Rate)
@@ -122,7 +157,7 @@ namespace MobileApps2Project
                 }
             }
 
-            
+
             return bmr;
         }
 
@@ -138,11 +173,12 @@ namespace MobileApps2Project
 
         private void GenerateBtn_Clicked(object sender, EventArgs e)
         {
-            age = (Convert.ToDouble(ageEntry.Text));
-            weight = (Convert.ToDouble(weightEntry.Text));
+            // age = (Convert.ToDouble(ageEntry.Text));
+            // weight = (Convert.ToDouble(weightEntry.Text));
             calories = CalculateBMR(age, weight);
-            System.Diagnostics.Debug.WriteLine("Calorie Intake: "+CalculateBMR(age, weight)+"");
-            GetProduct(calories);
+            System.Diagnostics.Debug.WriteLine("Calorie Intake: " + CalculateBMR(age, weight) + "");
+            Plan.GetProduct(calories);
+            Navigation.PushAsync(new Plan());
         }
     }
 }
