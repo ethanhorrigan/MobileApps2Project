@@ -50,60 +50,15 @@ namespace MobileApps2Project
          */
 
 
-            private void AddGenderPicker()
-        {
-            Label header = new Label
-            {
-                Text = "Picker",
-                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                HorizontalOptions = LayoutOptions.Center
-            };
-
-            Picker picker = new Picker
-            {
-                Title = "Color",
-                VerticalOptions = LayoutOptions.CenterAndExpand
-            };
+            private void AddGenderPicker(){
+          
 
             foreach (string gender in gend.Keys)
             {
-                picker.Items.Add(gender);
+                genPicker.Items.Add(gender);
             }
 
-            // Create BoxView for displaying picked Color
-            BoxView boxView = new BoxView
-            {
-                WidthRequest = 150,
-                HeightRequest = 150,
-                HorizontalOptions = LayoutOptions.Center,
-                VerticalOptions = LayoutOptions.CenterAndExpand
-            };
-
-            {
-                if (picker.SelectedIndex == -1)
-                {
-                    boxView.Color = Color.Default;
-                }
-                else
-                {
-                    //string genderType = picker.Items[picker.SelectedIndex];
-                    //boxView = nameToColor[genderType];
-                }
-            };
-
-            // Accomodate iPhone status bar.
-            this.Padding = new Thickness(10, Device.OnPlatform(20, 0, 0), 10, 5);
-
-            // Build the page.
-            this.Content = new StackLayout
-            {
-                Children =
-            {
-                header,
-                picker,
-                boxView
-            }
-            };
+           // genPicker.SelectedItem.ToString();
 
         }
 

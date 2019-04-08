@@ -5,7 +5,7 @@
              x:Class="MobileApps2Project.MainPage">
 
 
-    <Grid BackgroundColor="#8bc34a">
+    <Grid x:Name="userGrid" BackgroundColor="#8bc34a">
 
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
@@ -43,18 +43,17 @@
                 <Button HorizontalOptions="End" Text="Button" />
             </StackLayout>-->
 
-        <BoxView BackgroundColor="#dcedc8" Grid.Row="0"></BoxView>
-        <BoxView BackgroundColor="#dcedc8" Grid.Row="1"></BoxView>
+
+        <BoxView BackgroundColor="#dcedc8" Grid.Row="1" ></BoxView>
         <BoxView BackgroundColor="#dcedc8" Grid.Row="2"></BoxView>
         <BoxView BackgroundColor="#dcedc8" Grid.Row="3"></BoxView>
 
 
 
 
-        <StackLayout Grid.Row="1" Orientation="Vertical" Padding="0,50,0,50">
+        <StackLayout Grid.Row="1" Orientation="Vertical" Padding="0,50,0,50"  >
             <Label FontSize="Large" TextColor="#212121" Text="Gender:" HorizontalOptions="Center"/>
-            <Label FontSize="Medium" TextColor="#757575" x:Name="mTitle_1" Text="Hot Cross Buns" HorizontalOptions="Center"/>
-            <Picker Title="Gender" />
+            <Picker x:Name="genPicker" FontSize="Medium" TextColor="#757575" HorizontalOptions="Center"/>
         </StackLayout>
 
         <StackLayout Grid.Row="2" Orientation="Vertical" Padding="0,50,0,50">
@@ -65,6 +64,10 @@
         <StackLayout Grid.Row="3" Orientation="Vertical" Padding="0,50,0,50">
             <Label FontSize="Large" TextColor="#212121" Text="Weight (kg):" HorizontalOptions="Center"/>
             <Label FontSize="Medium" TextColor="#757575" x:Name="mTitle_3" Text="Hot Cross Buns" HorizontalOptions="Center"/>
+        </StackLayout>
+
+        <StackLayout Grid.Row="4" Orientation="Vertical" Padding="0,50,0,50">
+            <Button FontSize="Medium" TextColor="#212121" Text="Submit" HorizontalOptions="Center"/>
         </StackLayout>
 
 
