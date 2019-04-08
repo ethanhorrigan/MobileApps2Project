@@ -13,20 +13,21 @@ namespace MobileApps2Project
 {
     public partial class MainPage : ContentPage
     {
+        /* 
+        * User Variables
+        */
+        private bool gender = false;
+        private double age;
+        private double weight;
+        private double calories;
+
         /*
          * API Details
          */
         string apiKey = "a95634e82cmshc9d9f478728c886p14c5f5jsn5725ed7973e3";
         string host = "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com";
-        static string query = "butter";
-        string url = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/food/ingredients/substitutes?ingredientName="+query+"";
 
-        /* 
-         * User Variables
-         */
-        private int age;
-        private double weight;
-        private double calories;
+
 
 
 
@@ -35,89 +36,113 @@ namespace MobileApps2Project
             InitializeComponent();
         }
 
-
-        /* Search Method
-         * Allowing the user to input a subsititue query
-         */
-        private void Button_Clicked(object sender, EventArgs e)
-        {
-            System.Diagnostics.Debug.WriteLine("clicked");
-            GetProduct();
-        }
-
         /*
          * GetProduct() Method
          * Creating a new HttpClient to allow for requests to the Spoonacular API
          * Finally, converting from JSON
          */
-        private async void GetProduct()
+        private async void GetProduct(double c)
         {
-
+            calories = c;
+            string url = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/mealplans/generate?timeFrame=day&targetCalories=" + calories + "";
+            System.Diagnostics.Debug.WriteLine("hello");
             //Creating a Http client
             HttpClient client = new HttpClient();
             //Adding 2 Custom Defualt Headers
             client.DefaultRequestHeaders.Add("X-RapidAPI-Host", host);
             client.DefaultRequestHeaders.Add("X-RapidAPI-Key", apiKey);
 
-  
-            string response = await client.GetStringAsync(url);
+            string request = await client.GetStringAsync(url);
             // Parsing into JSON
-            var data = JsonConvert.DeserializeObject<RootObject>(response);
+            //var data = JsonConvert.DeserializeObject<RootObject>(response);
+            var response = JsonConvert.DeserializeObject<RootObject>(request);
 
             // Debug 
-            System.Diagnostics.Debug.WriteLine(data.ingredient);
-            System.Diagnostics.Debug.WriteLine(data.message);
-            System.Diagnostics.Debug.WriteLine(data.status);
 
-            for (int i = 0; i < data.substitutes.Count; i++)
+
+            for (int i = 0; i < response.meals.Count; i++)
             {
-                System.Diagnostics.Debug.WriteLine(data.substitutes[i]);
+                System.Diagnostics.Debug.WriteLine(response.meals[i].title);
+                System.Diagnostics.Debug.WriteLine(response.meals[i].readyInMinutes);
+
+
             }
+
+            System.Diagnostics.Debug.WriteLine(response.nutrients.calories);
+            System.Diagnostics.Debug.WriteLine(response.nutrients.protein);
+            System.Diagnostics.Debug.WriteLine(response.nutrients.fat);
+            System.Diagnostics.Debug.WriteLine(response.nutrients.carbohydrates);
         }
 
         /*
          * CalculateBMR Function which calculates BMR (Basal Metabolic Rate)
          * Resulting in calorie intake per day depending on gender, weight & age
          */
-        private double CalculateBMR(int a, double w)
+        private double CalculateBMR(double a, double w)
         {
             double bmr = 0;
 
-            //Female Calculations
-            if(age >= 10 || age <= 17)
+            if (gender == false)
             {
-                bmr = 13.4 * weight + 692;
-            }
-            //18-29 years BMR: 14.8 x weight + 487
-            else if (age >= 18 || age <= 29)
-            {
-                bmr = 14.8 * weight + 487;
-            }
-            //30 - 59 years BMR: 8.3 x weight +846
-            else
-            {
-                bmr = 8.3 * weight + 846;
-            }
-
-            //Male Calculations
-            //BMR: 17.7 x weight + 657
-            if (age >= 10 || age <= 17)
-            {
-                bmr = 17.7 * weight + 657;
-            }
-            //18 - 29 years BMR: 15.1 x weight +692
-            else if (age >= 18 || age <= 29)
-            {
-                bmr = 15.1 * weight + 692;
-            }
-            //30-59 years BMR: 11.5 x weight + 873
-            else
-            {
-                bmr = 11.5 * weight + 873;
+                //Female Calculations
+                if (age >= 10 || age <= 17)
+                {
+                    bmr = 13.4 * weight + 692;
+                }
+                //18-29 years BMR: 14.8 x weight + 487
+                else if (age >= 18 || age <= 29)
+                {
+                    bmr = 14.8 * weight + 487;
+                }
+                //30 - 59 years BMR: 8.3 x weight +846
+                else
+                {
+                    bmr = 8.3 * weight + 846;
+                }
             }
 
+            else
+            {
+
+                //Male Calculations
+                //BMR: 17.7 x weight + 657
+                if (age >= 10 || age <= 17)
+                {
+                    bmr = 17.7 * weight + 657;
+                }
+                //18 - 29 years BMR: 15.1 x weight +692
+                else if (age >= 18 || age <= 29)
+                {
+                    bmr = 15.1 * weight + 692;
+                }
+                //30-59 years BMR: 11.5 x weight + 873
+                else
+                {
+                    bmr = 11.5 * weight + 873;
+                }
+            }
+
+            
             return bmr;
         }
 
+        private void AgeEntry_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void WeightEntry_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void GenerateBtn_Clicked(object sender, EventArgs e)
+        {
+            age = (Convert.ToDouble(ageEntry.Text));
+            weight = (Convert.ToDouble(weightEntry.Text));
+            calories = CalculateBMR(age, weight);
+            System.Diagnostics.Debug.WriteLine("Calorie Intake: "+CalculateBMR(age, weight)+"");
+            GetProduct(calories);
+        }
     }
 }
