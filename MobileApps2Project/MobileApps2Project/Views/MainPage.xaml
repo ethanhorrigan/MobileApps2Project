@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MobileApps2Project"
+             x:Class="MobileApps2Project.MainPage">
+
+
+    <Grid x:Name="userGrid" BackgroundColor="#8bc34a">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+
+
+        <BoxView BackgroundColor="#dcedc8" Grid.Row="1" ></BoxView>
+        <BoxView BackgroundColor="#dcedc8" Grid.Row="2"></BoxView>
+        <BoxView BackgroundColor="#dcedc8" Grid.Row="3"></BoxView>
+
+
+
+
+        <StackLayout Grid.Row="1" Orientation="Vertical" Padding="0,50,0,50"  >
+            <Label FontSize="Large" TextColor="#212121" Text="Gender:" HorizontalOptions="Center"/>
+            <Picker x:Name="genPicker" FontSize="Medium" TextColor="#757575" HorizontalOptions="Center" WidthRequest="100"/>
+        </StackLayout>
+
+        <StackLayout Grid.Row="2" Orientation="Vertical" Padding="0,50,0,50">
+            <Label FontSize="Large" TextColor="#212121" Text="Age:" HorizontalOptions="Center"/>
+            <Entry FontSize="Medium" TextColor="#757575" x:Name="ageEntry" HorizontalOptions="Center" WidthRequest="100"/>
+        </StackLayout>
+
+        <StackLayout Grid.Row="3" Orientation="Vertical" Padding="0,50,0,50">
+            <Label FontSize="Large" TextColor="#212121" Text="Weight (kg):" HorizontalOptions="Center"/>
+            <Entry FontSize="Medium" TextColor="#757575" x:Name="weightEntry" HorizontalOptions="Center" WidthRequest="100"/>
+        </StackLayout>
+
+        <StackLayout Grid.Row="4" Orientation="Vertical" Padding="0,50,0,50">
+            <Button x:Name="GenerateBtn" FontSize="Medium" TextColor="#212121" Text="Submit" HorizontalOptions="Center" Clicked="GenerateBtn_Clicked"/>
+        </StackLayout>
+
+
+
+    </Grid>
+
+
+
+
+</ContentPage>

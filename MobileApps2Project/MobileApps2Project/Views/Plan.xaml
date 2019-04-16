@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApps2Project.Plan">
+
+
+    <Grid BackgroundColor="#689f38">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+
+        <BoxView Grid.Row="0" BackgroundColor="#dcedc8"></BoxView>
+        <BoxView Grid.Row="1" BackgroundColor="#dcedc8"></BoxView>
+        <BoxView Grid.Row="2" BackgroundColor="#dcedc8"></BoxView>
+        <BoxView Grid.Row="3" BackgroundColor="#dcedc8"></BoxView>
+
+        <StackLayout Grid.Row="0" Orientation="Vertical" Padding="0,50,0,50">
+            <Label FontSize="Large" TextColor="#212121" Text="Meal 1" HorizontalOptions="Center"/>
+            <Label FontSize="Medium" TextColor="#757575" x:Name="mTitle_1" Text="Hot Cross Buns" HorizontalOptions="Center"/>
+        </StackLayout>
+
+        <StackLayout Grid.Row="1" Orientation="Vertical" Padding="0,50,0,50">
+            <Label FontSize="Large" TextColor="#212121" Text="Meal 2" HorizontalOptions="Center"/>
+            <Label FontSize="Medium" TextColor="#757575" x:Name="mTitle_2" Text="Hot Cross Buns" HorizontalOptions="Center"/>
+        </StackLayout>
+
+        <StackLayout Grid.Row="2" Orientation="Vertical" Padding="0,50,0,50">
+            <Label FontSize="Large" TextColor="#212121" Text="Meal 3" HorizontalOptions="Center"/>
+            <Label FontSize="Medium" TextColor="#757575" x:Name="mTitle_3" Text="Hot Cross Buns" HorizontalOptions="Center"/>
+        </StackLayout>
+
+
+        
+        <StackLayout x:Name="NutrientStack" Grid.Row="3" Orientation="Vertical" Padding="0,50,0,50">
+
+            <Label FontSize="Large" TextColor="#212121" Text="Nutrients" HorizontalOptions="Center"/>
+            <Label x:Name="nCal" FontSize="Medium" TextColor="#757575" Text="{Binding nutrients}" HorizontalOptions="Center"/>
+            <Label FontSize="Medium" TextColor="#757575" Text="Protein: " HorizontalOptions="Center"/>
+            <Label FontSize="Medium" TextColor="#757575" Text="Fat: " HorizontalOptions="Center"/>
+            <Label FontSize="Medium" TextColor="#757575" Text="Carbohydrates: " HorizontalOptions="Center"/>
+            
+        </StackLayout>
+    </Grid>
+
+
+</ContentPage>
