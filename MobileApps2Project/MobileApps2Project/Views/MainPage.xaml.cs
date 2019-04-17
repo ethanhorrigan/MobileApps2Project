@@ -36,7 +36,9 @@ namespace MobileApps2Project
         }
 
 
-
+        /*
+         * Method which adds Picker to the UI
+         */
         private void AddGenderPicker()
         {
             foreach (string gender in gend.Keys)
@@ -108,17 +110,15 @@ namespace MobileApps2Project
 
             try
             {
-                // Use default vibration length
+                //default vibration length
                 Vibration.Vibrate();
 
             }
             catch (FeatureNotSupportedException ex)
             {
-                // Feature not supported on device
             }
             catch (Exception ex)
             {
-                // Other error has occurred.
             }
         }
     }

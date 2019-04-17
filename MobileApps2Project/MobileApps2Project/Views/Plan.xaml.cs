@@ -30,7 +30,15 @@ namespace MobileApps2Project
 
         private void LvMeals_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
+            string test = Convert.ToString(e.SelectedItem);
 
+            Application.Current.Properties["title "] = test;
+            Application.Current.SavePropertiesAsync();
+        }
+
+        private void SaveBtn_Clicked(object sender, EventArgs e)
+        {
+            var currentuserID = (Application.Current.Properties["title "].ToString());
         }
     }
 }

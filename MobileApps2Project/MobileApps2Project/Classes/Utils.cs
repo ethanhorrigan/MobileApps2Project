@@ -14,16 +14,18 @@ namespace MobileApps2Project.Classes
         private const string host = "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com";
 
         
+        /*
+         * Initially I used C#'s HttpClient Class to make a request, but then Settled for UNIREST, as I found it better to makes calls
+         * and Binding
+         */
         public static T GetApiData<T>(string URL)
         {
             HttpRequest request = Unirest.get(URL).header("X-RapidAPI-Key", apiKey);
             HttpResponse<string> response = request.asString();
            
-            T result = JsonConvert.DeserializeObject<T>(response.Body);
+            T r = JsonConvert.DeserializeObject<T>(response.Body);
 
-            
-
-            return result;
+            return r;
         }
         
     }

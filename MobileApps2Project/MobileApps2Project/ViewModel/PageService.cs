@@ -13,7 +13,7 @@ namespace MobileApps2Project.ViewModel
                 await Application.Current.MainPage.Navigation.PushAsync(page);
             }
 
-            public async Task<bool> Alert(string t, string m, string v, string q)
+            public async Task<bool> DisplayAlert(string t, string m, string v, string q)
             {
                 return await Application.Current.MainPage.DisplayAlert(t, m, v, q);
             }
