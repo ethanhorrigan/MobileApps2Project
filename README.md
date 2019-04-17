@@ -17,6 +17,11 @@
 * Visual Studio 2017
 * [Spoonacular API](https://rapidapi.com/spoonacular/api/recipe-food-nutrition) 
 
+## NuGet Packages
+
+* Xamarin Essentials
+* Newtonsoft.Json
+* Unirest-APIMATIC
 
 ## Art
 

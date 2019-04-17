@@ -15,6 +15,7 @@
     <ManifestDocument>obj\Debug\81\lp\21\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\81\lp\22\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\81\lp\23\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Debug\81\lp\24\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\81\lp\7\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Debug\81\lp\8\jl\AndroidManifest.xml</ManifestDocument>
   </ManifestDocuments>
@@ -35,6 +36,7 @@
     <Jar>obj\Debug\81\lp\21\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\81\lp\22\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\81\lp\23\jl\bin\classes.jar</Jar>
+    <Jar>obj\Debug\81\lp\24\jl\bin\classes.jar</Jar>
     <Jar>obj\Debug\81\lp\5\jl\arch-core-common.jar</Jar>
     <Jar>obj\Debug\81\lp\6\jl\arch-lifecycle-common.jar</Jar>
     <Jar>obj\Debug\81\lp\7\jl\bin\classes.jar</Jar>

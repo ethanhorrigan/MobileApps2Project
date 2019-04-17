@@ -15,6 +15,9 @@
                     <StackLayout VerticalOptions="Center">
                         <Label Text="{Binding Path=title}" FontAttributes="Bold" VerticalTextAlignment="Center" FontSize="Medium"/>
                     </StackLayout>
+                    <StackLayout VerticalOptions="Center">
+                        <Button Text="Add" FontAttributes="Bold"/>
+                    </StackLayout>
                 </StackLayout>
             </ViewCell>
         </DataTemplate>

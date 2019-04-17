@@ -7,6 +7,8 @@ D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\Newtonsoft.Json.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\System.Core.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\System.dll
+D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\System.Numerics.dll
+D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\System.Numerics.Vectors.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\System.Xml.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\System.Xml.Linq.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\unirest-net.dll
@@ -18,6 +20,7 @@ D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Compat.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.UI.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.Utils.dll
+D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.CustomTabs.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Design.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Fragment.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Media.Compat.dll
@@ -29,13 +32,13 @@ D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.Palette.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
+D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\Xamarin.Essentials.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\netstandard.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\System.Data.dll
-D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\System.Numerics.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\System.Transactions.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\System.IO.Compression.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.Android\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.dll

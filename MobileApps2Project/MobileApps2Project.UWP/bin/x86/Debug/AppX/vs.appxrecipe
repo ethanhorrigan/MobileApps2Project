@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-17T20:53:57.158</Modified>
+      <Modified>2019-04-17T21:12:24.029</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\MobileApps2Project.UWP.exe">
       <PackagePath>entrypoint\MobileApps2Project.UWP.exe</PackagePath>
-      <Modified>2019-04-17T20:53:55.530</Modified>
+      <Modified>2019-04-17T21:12:23.073</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lurch\.nuget\packages\newtonsoft.json\12.0.1\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -53,6 +53,10 @@
     <AppxPackagedFile Include="C:\Users\Lurch\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2016-11-30T02:58:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lurch\.nuget\packages\xamarin.essentials\1.1.0\lib\uap10.0.16299\Xamarin.Essentials.dll">
+      <PackagePath>Xamarin.Essentials.dll</PackagePath>
+      <Modified>2019-03-15T22:29:30.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lurch\.nuget\packages\xamarin.forms\3.6.0.293080\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
@@ -72,7 +76,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\bin\Debug\netstandard2.0\MobileApps2Project.dll">
       <PackagePath>MobileApps2Project.dll</PackagePath>
-      <Modified>2019-04-17T20:53:48.359</Modified>
+      <Modified>2019-04-17T21:12:17.120</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lurch\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -313,11 +317,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-04-17T20:53:55.183</Modified>
+      <Modified>2019-04-17T21:12:22.894</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-04-17T20:53:55.184</Modified>
+      <Modified>2019-04-17T21:12:22.894</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -329,11 +333,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-04-17T20:38:53.432</Modified>
+      <Modified>2019-04-17T21:09:57.581</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\Core\MobileApps2Project.UWP.exe">
       <PackagePath>MobileApps2Project.UWP.exe</PackagePath>
-      <Modified>2019-04-17T20:53:57.152</Modified>
+      <Modified>2019-04-17T21:12:24.025</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

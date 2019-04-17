@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.companyname.MobileApps2Project" android:versionCode="1" android:versionName="1.0">
-	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="27" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.companyname.MobileApps2Project" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="22" android:targetSdkVersion="27" />
+	<uses-permission android:name="android.permission.VIBRATE" />
 	<application android:label="MobileApps2Project.Android"></application>
 </manifest>

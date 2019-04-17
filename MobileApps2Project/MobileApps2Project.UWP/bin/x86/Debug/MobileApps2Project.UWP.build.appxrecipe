@@ -40,6 +40,9 @@
     <AppxPackagedFile Include="C:\Users\Lurch\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lurch\.nuget\packages\xamarin.essentials\1.1.0\lib\uap10.0.16299\Xamarin.Essentials.dll">
+      <PackagePath>Xamarin.Essentials.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lurch\.nuget\packages\xamarin.forms\3.6.0.293080\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
     </AppxPackagedFile>

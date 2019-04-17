@@ -8,6 +8,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Xamarin.Essentials;
 
 namespace MobileApps2Project
 {
@@ -107,6 +108,21 @@ namespace MobileApps2Project
              double weight = (Convert.ToDouble(weightEntry.Text));
              calories = CalculateBMR(age, weight);
              Navigation.PushAsync(new Plan(calories));
+
+            try
+            {
+                // Use default vibration length
+                Vibration.Vibrate();
+
+            }
+            catch (FeatureNotSupportedException ex)
+            {
+                // Feature not supported on device
+            }
+            catch (Exception ex)
+            {
+                // Other error has occurred.
+            }
         }
     }
 }
