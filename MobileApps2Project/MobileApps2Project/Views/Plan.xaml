@@ -4,7 +4,7 @@
              x:Class="MobileApps2Project.Plan">
 
 
-    <Grid BackgroundColor="#689f38">
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto" />
             <RowDefinition Height="auto" />
@@ -38,7 +38,7 @@
         <StackLayout x:Name="NutrientStack" Grid.Row="3" Orientation="Vertical" Padding="0,50,0,50">
 
             <Label FontSize="Large" TextColor="#212121" Text="Nutrients" HorizontalOptions="Center"/>
-            <Label x:Name="nCal" FontSize="Medium" TextColor="#757575" Text="{Binding nutrients}" HorizontalOptions="Center"/>
+            <Label x:Name="nCal" FontSize="Medium" TextColor="#757575" Text="{Binding protein}" HorizontalOptions="Center"/>
             <Label FontSize="Medium" TextColor="#757575" Text="Protein: " HorizontalOptions="Center"/>
             <Label FontSize="Medium" TextColor="#757575" Text="Fat: " HorizontalOptions="Center"/>
             <Label FontSize="Medium" TextColor="#757575" Text="Carbohydrates: " HorizontalOptions="Center"/>

@@ -41,24 +41,14 @@ namespace MobileApps2Project
             AddGenderPicker();
         }
 
-        /*
-         * GetProduct() Method
-         * Creating a new HttpClient to allow for requests to the Spoonacular API
-         * Finally, converting from JSON
-         */
-
-
-            private void AddGenderPicker(){
-          
-
+        private void AddGenderPicker()
+        {
             foreach (string gender in gend.Keys)
             {
                 genPicker.Items.Add(gender);
             }
 
         }
-
-
 
         /*
          * CalculateBMR Function which calculates BMR (Basal Metabolic Rate)
@@ -115,15 +105,6 @@ namespace MobileApps2Project
             return bmr;
         }
 
-        private void AgeEntry_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
-
-        private void WeightEntry_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
 
         private void GenerateBtn_Clicked(object sender, EventArgs e)
         {
