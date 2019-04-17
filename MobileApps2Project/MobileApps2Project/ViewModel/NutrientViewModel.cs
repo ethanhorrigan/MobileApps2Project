@@ -24,6 +24,7 @@ namespace MobileApps2Project.ViewModel
         {
             get { return _meals; }
             set { SetValue(ref _meals, value); }
+
         }
 
         private readonly IPageService _pageService;
@@ -44,8 +45,17 @@ namespace MobileApps2Project.ViewModel
                     string url = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/mealplans/generate?timeFrame=day&targetCalories=" + bmr + "";
 
                     Result = Utils.GetApiData<RootObject>(url);
+                    Meals = Result.meals;
+                    System.Diagnostics.Debug.WriteLine(Meals[1].title);
 
-                    System.Diagnostics.Debug.WriteLine(Result.nutrients.calories);
+
+                    //API call did not give direct link to image, so using the Documentation for the API I could get image from the Meal ID 
+                    // https://spoonacular.com/food-api/docs/show-images
+
+                    for (int i = 0; i < Meals.Count; ++i)
+                    {
+                        Meals[i].image = "https://spoonacular.com/recipeImages/"+Meals[i].id+"-556x370.jpg";
+                    }
 
                 }
                 catch (Exception)

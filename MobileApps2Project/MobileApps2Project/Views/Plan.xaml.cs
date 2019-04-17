@@ -17,6 +17,10 @@ namespace MobileApps2Project
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Plan : ContentPage
     {
+        public Plan()
+        {
+
+        }
 
         public Plan(double bmr)
         {
@@ -24,5 +28,9 @@ namespace MobileApps2Project
             this.BindingContext = new NutrientViewModel(new PageService(), bmr);
         }
 
+        private void LvMeals_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+
+        }
     }
 }

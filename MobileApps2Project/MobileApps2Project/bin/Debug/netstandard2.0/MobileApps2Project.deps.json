@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "dfe2381fc4cf0a7ab6a0fe8a82db5e26b62c3b2f"
+    "signature": "0b603319cb690b81a99707f923f8c116111c1361"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,52 +11,11 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "12.0.1",
-          "Unirest-API": "1.0.7.6",
-          "Xamarin.Forms": "3.4.0.1008975"
+          "Unirest-APIMATIC": "1.0.1.27",
+          "Xamarin.Forms": "3.6.0.293080"
         },
         "runtime": {
           "MobileApps2Project.dll": {}
-        }
-      },
-      "Microsoft.Bcl/1.1.10": {
-        "dependencies": {
-          "Microsoft.Bcl.Build": "1.0.21"
-        }
-      },
-      "Microsoft.Bcl.Async/1.0.168": {
-        "dependencies": {
-          "Microsoft.Bcl": "1.1.10"
-        },
-        "runtime": {
-          "lib/net40/Microsoft.Threading.Tasks.Extensions.Desktop.dll": {
-            "assemblyVersion": "1.0.168.0",
-            "fileVersion": "1.0.168.0"
-          },
-          "lib/net40/Microsoft.Threading.Tasks.Extensions.dll": {
-            "assemblyVersion": "1.0.12.0",
-            "fileVersion": "1.0.168.0"
-          },
-          "lib/net40/Microsoft.Threading.Tasks.dll": {
-            "assemblyVersion": "1.0.12.0",
-            "fileVersion": "1.0.168.0"
-          }
-        }
-      },
-      "Microsoft.Bcl.Build/1.0.21": {},
-      "Microsoft.Net.Http/2.2.29": {
-        "dependencies": {
-          "Microsoft.Bcl": "1.1.10",
-          "Microsoft.Bcl.Build": "1.0.21"
-        },
-        "runtime": {
-          "lib/net45/System.Net.Http.Extensions.dll": {
-            "assemblyVersion": "2.2.29.0",
-            "fileVersion": "2.2.29.0"
-          },
-          "lib/net45/System.Net.Http.Primitives.dll": {
-            "assemblyVersion": "4.2.29.0",
-            "fileVersion": "4.2.29.0"
-          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -73,22 +32,18 @@
           }
         }
       },
-      "Unirest-API/1.0.7.6": {
+      "Unirest-APIMATIC/1.0.1.27": {
         "dependencies": {
-          "Microsoft.Bcl": "1.1.10",
-          "Microsoft.Bcl.Async": "1.0.168",
-          "Microsoft.Bcl.Build": "1.0.21",
-          "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "12.0.1"
         },
         "runtime": {
-          "lib/unirest-net.dll": {
-            "assemblyVersion": "1.0.4.3",
-            "fileVersion": "1.0.4.3"
+          "lib/net45/unirest-net.dll": {
+            "assemblyVersion": "1.0.1.27",
+            "fileVersion": "1.0.1.27"
           }
         }
       },
-      "Xamarin.Forms/3.4.0.1008975": {
+      "Xamarin.Forms/3.6.0.293080": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
@@ -112,34 +67,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.Bcl/1.1.10": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-+tTqoh/M1pyL8El3qLy30EcwnAtyvFoDZJtdG9Cbg/WdFbh4N8kyrq198XHuEL7lnJbeD0DRO8jcX5IIOh05cQ==",
-      "path": "microsoft.bcl/1.1.10",
-      "hashPath": "microsoft.bcl.1.1.10.nupkg.sha512"
-    },
-    "Microsoft.Bcl.Async/1.0.168": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-tUNC02eBwDKpGre0BcNIvblLv1q0Q3DnS/vtkRHj2FE1sXwt386HAudztyl5C0U88hllrqHDvtlz8bK0Y8cHDA==",
-      "path": "microsoft.bcl.async/1.0.168",
-      "hashPath": "microsoft.bcl.async.1.0.168.nupkg.sha512"
-    },
-    "Microsoft.Bcl.Build/1.0.21": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-sgHu4mIt0+NVGyI12Bj4hLPypNK55UOH+ologj2LqDCjxq3EbIxe/uAtHjY+fEwbE1dtsAHG8SXHf+V/EYbKTg==",
-      "path": "microsoft.bcl.build/1.0.21",
-      "hashPath": "microsoft.bcl.build.1.0.21.nupkg.sha512"
-    },
-    "Microsoft.Net.Http/2.2.29": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-fc4CPEewJ30Xgal+fSq1lYIBt582A7eKlAL7O4HXiYAiTp2VTnA4osSvk7T2n8aS4xTCPVJusQk3yKLT0XSpkg==",
-      "path": "microsoft.net.http/2.2.29",
-      "hashPath": "microsoft.net.http.2.2.29.nupkg.sha512"
-    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
       "serviceable": true,
@@ -161,19 +88,19 @@
       "path": "newtonsoft.json/12.0.1",
       "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
     },
-    "Unirest-API/1.0.7.6": {
+    "Unirest-APIMATIC/1.0.1.27": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-EAAKNIZkn3iaHftS0a9AisyaciklzcGqQKqiKaRUuhiMATPGh/IgCL9UVxeDUAEYejL2iBPt+xfZdztNaz6C/g==",
-      "path": "unirest-api/1.0.7.6",
-      "hashPath": "unirest-api.1.0.7.6.nupkg.sha512"
+      "sha512": "sha512-SF7rtxo0ds9jyj2q4UsvuAt2zZd2bd6uwUUS3Bgg8Qv7nUGTfKHw7tguRHYGma18MyPQdKdaiGgiI/UO3yFwaA==",
+      "path": "unirest-apimatic/1.0.1.27",
+      "hashPath": "unirest-apimatic.1.0.1.27.nupkg.sha512"
     },
-    "Xamarin.Forms/3.4.0.1008975": {
+    "Xamarin.Forms/3.6.0.293080": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-tM9syeev45u92OFENGjq+Zw8WiEwLJFiXe317XpL9SY2RRk9sm2fc1lDVjzwz0da+5ZP5fi24NAPsPQdxBdMwQ==",
-      "path": "xamarin.forms/3.4.0.1008975",
-      "hashPath": "xamarin.forms.3.4.0.1008975.nupkg.sha512"
+      "sha512": "sha512-5o6pS3kbFwWDiTpywz0UasLwn9Ay5/1eGH8JWXBV0N2lDkZauOgTZaMIE/Rdjz2bLhMturwzI1/DFuNxdSidFw==",
+      "path": "xamarin.forms/3.6.0.293080",
+      "hashPath": "xamarin.forms.3.6.0.293080.nupkg.sha512"
     }
   }
 }

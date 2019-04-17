@@ -1,15 +1,13 @@
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\bin\Debug\netstandard2.0\MobileApps2Project.deps.json
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\bin\Debug\netstandard2.0\MobileApps2Project.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\bin\Debug\netstandard2.0\MobileApps2Project.pdb
+D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\obj\Debug\netstandard2.0\MobileApps2Project.csprojAssemblyReference.cache
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\obj\Debug\netstandard2.0\Views\App.xaml.g.cs
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\obj\Debug\netstandard2.0\Views\Plan.xaml.g.cs
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\obj\Debug\netstandard2.0\MobileApps2Project.csproj.CoreCompileInputs.cache
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\obj\Debug\netstandard2.0\MobileApps2Project.AssemblyInfoInputs.cache
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\obj\Debug\netstandard2.0\MobileApps2Project.AssemblyInfo.cs
+D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\obj\Debug\netstandard2.0\XamlC.stamp
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\obj\Debug\netstandard2.0\MobileApps2Project.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\obj\Debug\netstandard2.0\MobileApps2Project.pdb
-D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\obj\Debug\netstandard2.0\MobileApps2Project.csprojAssemblyReference.cache
-D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\bin\Debug\netstandard2.0\MobileApps2Project.dll.config
-D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\obj\Debug\netstandard2.0\MobileApps2Project.csproj.App.config
-D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\obj\Debug\netstandard2.0\XamlC.stamp
