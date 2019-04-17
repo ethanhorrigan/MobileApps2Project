@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ETHANS-PC</Machine>
+    <WindowsUser>Lurch</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Lurch</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>C70CCB9ED67EBE8F6743D80712A20C25A4941C7E5DD294E6BDC759261D13C849</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>c63b1fcb-eb7e-415e-9345-139233ee44b8_1.0.0.0_x86__226wk2jkk08ne</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>c63b1fcb-eb7e-415e-9345-139233ee44b8_226wk2jkk08ne!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>c63b1fcb-eb7e-415e-9345-139233ee44b8</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Lurch</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-17T20:53:57.158</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\MobileApps2Project.UWP.exe">
+      <PackagePath>entrypoint\MobileApps2Project.UWP.exe</PackagePath>
+      <Modified>2019-04-17T20:53:55.530</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lurch\.nuget\packages\newtonsoft.json\12.0.1\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2018-11-27T18:07:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lurch\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2019-03-12T22:22:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lurch\.nuget\packages\unirest-apimatic\1.0.1.27\lib\uap10.0\unirest-net.dll">
+      <PackagePath>unirest-net.dll</PackagePath>
+      <Modified>2017-03-30T15:37:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lurch\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2016-11-30T02:58:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lurch\.nuget\packages\xamarin.forms\3.6.0.293080\lib\uap10.0\Xamarin.Forms.Core.dll">
+      <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
+      <Modified>2019-03-28T00:59:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lurch\.nuget\packages\xamarin.forms\3.6.0.293080\lib\uap10.0\Xamarin.Forms.Platform.UAP.dll">
+      <PackagePath>Xamarin.Forms.Platform.UAP.dll</PackagePath>
+      <Modified>2019-03-28T01:00:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lurch\.nuget\packages\xamarin.forms\3.6.0.293080\lib\uap10.0\Xamarin.Forms.Platform.dll">
+      <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
+      <Modified>2019-03-28T01:00:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lurch\.nuget\packages\xamarin.forms\3.6.0.293080\lib\uap10.0\Xamarin.Forms.Xaml.dll">
+      <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
+      <Modified>2019-03-28T01:00:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\bin\Debug\netstandard2.0\MobileApps2Project.dll">
+      <PackagePath>MobileApps2Project.dll</PackagePath>
+      <Modified>2019-04-17T20:53:48.359</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lurch\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
+      <Modified>2016-11-30T02:58:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.468</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.529</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:53.998</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.008</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.018</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.052</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.951</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:55.002</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:55.064</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:55.169</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:55.559</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.064</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.089</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.126</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.183</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.869</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.878</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.885</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.766</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.775</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.783</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.793</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.807</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.815</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.823</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.861</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.831</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:55.568</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:55.577</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:55.586</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:55.597</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:55.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.197</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.216</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.238</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.271</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-07T16:31:54.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2019-03-27T17:12:31.372</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\MobileApps2Project.UWP.xr.xml">
+      <PackagePath>MobileApps2Project.UWP.xr.xml</PackagePath>
+      <Modified>2019-04-17T19:53:39.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2019-04-17T20:53:55.183</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2019-04-17T20:53:55.184</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2017-09-28T17:28:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lurch\.nuget\packages\xamarin.forms\3.6.0.293080\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
+      <Modified>2019-03-28T00:59:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2019-04-17T20:38:53.432</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\Core\MobileApps2Project.UWP.exe">
+      <PackagePath>MobileApps2Project.UWP.exe</PackagePath>
+      <Modified>2019-04-17T20:53:57.152</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\Lurch\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27404.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Lurch\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Lurch\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27404.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Lurch\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Lurch\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27404.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Lurch\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Lurch\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27505.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Lurch\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Lurch\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27505.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Lurch\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Lurch\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27505.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Lurch\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27023.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27023.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27023.1</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27023.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27023.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27023.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27023.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27023.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="c63b1fcb-eb7e-415e-9345-139233ee44b8" Publisher="CN=d15dcb21-07bf-4b9e-8dc9-de376b6e9d3f" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <Identity Name="c63b1fcb-eb7e-415e-9345-139233ee44b8" Publisher="CN=Lurch" Version="1.0.0.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>MobileApps2Project.UWP</DisplayName>

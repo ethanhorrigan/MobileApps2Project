@@ -15,16 +15,12 @@
                     <StackLayout VerticalOptions="Center">
                         <Label Text="{Binding Path=title}" FontAttributes="Bold" VerticalTextAlignment="Center" FontSize="Medium"/>
                     </StackLayout>
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                        <Label Text="Ready In: " VerticalTextAlignment="Center"/>
-                        <Label Text="{Binding Path=readyInMinutes}" VerticalTextAlignment="Center"/>
-                    </StackLayout>
                 </StackLayout>
             </ViewCell>
         </DataTemplate>
 
     </ContentPage.Resources>
-    
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto" />
@@ -37,7 +33,7 @@
 
         <StackLayout Grid.Row="1" Orientation="Vertical" HorizontalOptions="Center">
             <ListView x:Name="lvMeals" Margin="6, 6, 6, 0" ItemsSource="{Binding Meals, Mode=TwoWay}"
-ItemTemplate="{StaticResource MealsTemp}" HasUnevenRows="True" SeparatorVisibility="Default" SeparatorColor="#dcedc8" ItemSelected="LvMeals_ItemSelected"/>
+ItemTemplate="{StaticResource MealsTemp}"  SeparatorVisibility="Default" SeparatorColor="#dcedc8" ItemSelected="LvMeals_ItemSelected"/>
         </StackLayout>
 
 

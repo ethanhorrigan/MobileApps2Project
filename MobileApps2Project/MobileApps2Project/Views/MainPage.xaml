@@ -5,7 +5,7 @@
              x:Class="MobileApps2Project.MainPage">
 
 
-    <Grid x:Name="userGrid" BackgroundColor="#8bc34a">
+    <Grid x:Name="userGrid" >
 
         <Grid.RowDefinitions>
             <RowDefinition Height="auto" />
@@ -16,9 +16,6 @@
 
 
 
-        <BoxView BackgroundColor="#dcedc8" Grid.RowSpan="4" ></BoxView>
-        <BoxView BackgroundColor="#dcedc8" Grid.Row="2"></BoxView>
-        <BoxView BackgroundColor="#dcedc8" Grid.Row="3"></BoxView>
 
 
 
