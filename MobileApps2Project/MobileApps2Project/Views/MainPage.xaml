@@ -39,8 +39,9 @@
         </StackLayout>
 
         <StackLayout Grid.Row="4" Orientation="Vertical" Padding="0,25,0,25">
-            <Button Image="" x:Name="GenerateBtn" FontSize="Medium" TextColor="#212121" Text="Submit" HorizontalOptions="Center" Clicked="GenerateBtn_Clicked"/>
+            <Button x:Name="GenerateBtn" FontSize="Medium" TextColor="#212121" Text="Submit" HorizontalOptions="Center" Clicked="GenerateBtn_Clicked"/>
         </StackLayout>
+
 
 
     </Grid>

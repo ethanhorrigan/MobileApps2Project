@@ -21,7 +21,6 @@ namespace MobileApps2Project
         public Plan(double bmr)
         {
             InitializeComponent();
-            //this.BindingContext = new NutrientViewModel();
             this.BindingContext = new NutrientViewModel(new PageService(), bmr);
         }
 

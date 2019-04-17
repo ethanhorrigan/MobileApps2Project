@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-17T16:35:02.286</Modified>
+      <Modified>2019-04-17T17:24:54.830</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\MobileApps2Project.UWP.exe">
       <PackagePath>entrypoint\MobileApps2Project.UWP.exe</PackagePath>
-      <Modified>2019-04-17T16:35:01.174</Modified>
+      <Modified>2019-04-17T17:24:53.373</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lurch\.nuget\packages\microsoft.bcl.async\1.0.168\lib\win8\Microsoft.Threading.Tasks.Extensions.dll">
       <PackagePath>Microsoft.Threading.Tasks.Extensions.dll</PackagePath>
@@ -736,11 +736,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\bin\Debug\netstandard2.0\MobileApps2Project.dll">
       <PackagePath>MobileApps2Project.dll</PackagePath>
-      <Modified>2019-04-17T16:34:53.758</Modified>
+      <Modified>2019-04-17T17:24:46.034</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\bin\Debug\netstandard2.0\MobileApps2Project.dll.config">
       <PackagePath>MobileApps2Project.dll.config</PackagePath>
-      <Modified>2019-04-17T14:42:17.118</Modified>
+      <Modified>2019-04-17T17:24:44.883</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -977,11 +977,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-04-17T16:35:00.969</Modified>
+      <Modified>2019-04-17T17:24:53.187</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-04-17T16:35:00.969</Modified>
+      <Modified>2019-04-17T17:24:53.187</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -993,11 +993,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-04-17T14:42:32.679</Modified>
+      <Modified>2019-04-17T17:20:00.574</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\Core\MobileApps2Project.UWP.exe">
       <PackagePath>MobileApps2Project.UWP.exe</PackagePath>
-      <Modified>2019-04-17T16:35:02.268</Modified>
+      <Modified>2019-04-17T17:24:54.817</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
