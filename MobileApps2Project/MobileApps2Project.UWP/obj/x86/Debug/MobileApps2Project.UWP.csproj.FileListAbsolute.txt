@@ -300,3 +300,9 @@ D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\obj\x86\Debug\ProjectArchitectures.txt
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\Newtonsoft.Json.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\Newtonsoft.Json.pdb
+D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.dll
+D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\Microsoft.Threading.Tasks.dll
+D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\System.Net.Http.Extensions.dll
+D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\System.Net.Http.Primitives.dll
+D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\unirest-net.dll
+D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\MobileApps2Project.dll.config

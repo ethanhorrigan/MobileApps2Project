@@ -4,7 +4,8 @@ using System.Text;
 
 namespace MobileApps2Project.ViewModel
 {
-    class PlanViewModel
+    class PlanViewModel : BaseViewModel
     {
+        
     }
 }

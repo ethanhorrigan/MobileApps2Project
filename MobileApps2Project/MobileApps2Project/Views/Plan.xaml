@@ -18,9 +18,10 @@
         <BoxView Grid.Row="2" BackgroundColor="#dcedc8"></BoxView>
         <BoxView Grid.Row="3" BackgroundColor="#dcedc8"></BoxView>
 
+        <StackLayout>
         <StackLayout Grid.Row="0" Orientation="Vertical" Padding="0,50,0,50">
             <Label FontSize="Large" TextColor="#212121" Text="Meal 1" HorizontalOptions="Center"/>
-            <Label FontSize="Medium" TextColor="#757575" x:Name="mTitle_1" Text="Hot Cross Buns" HorizontalOptions="Center"/>
+
         </StackLayout>
 
         <StackLayout Grid.Row="1" Orientation="Vertical" Padding="0,50,0,50">
@@ -32,17 +33,39 @@
             <Label FontSize="Large" TextColor="#212121" Text="Meal 3" HorizontalOptions="Center"/>
             <Label FontSize="Medium" TextColor="#757575" x:Name="mTitle_3" Text="Hot Cross Buns" HorizontalOptions="Center"/>
         </StackLayout>
+        </StackLayout>
 
 
-        
-        <StackLayout x:Name="NutrientStack" Grid.Row="3" Orientation="Vertical" Padding="0,50,0,50">
+        <StackLayout BindingContext="{Binding Result}" x:Name="NutrientStack" Grid.Row="3" Orientation="Horizontal" Padding="0,50,0,50" HorizontalOptions="Center">
 
-            <Label FontSize="Large" TextColor="#212121" Text="Nutrients" HorizontalOptions="Center"/>
-            <Label x:Name="nCal" FontSize="Medium" TextColor="#757575" Text="{Binding protein}" HorizontalOptions="Center"/>
-            <Label FontSize="Medium" TextColor="#757575" Text="Protein: " HorizontalOptions="Center"/>
-            <Label FontSize="Medium" TextColor="#757575" Text="Fat: " HorizontalOptions="Center"/>
-            <Label FontSize="Medium" TextColor="#757575" Text="Carbohydrates: " HorizontalOptions="Center"/>
-            
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+
+
+
+                <Label Grid.Row="0" Grid.Column="0" FontSize="Medium" TextColor="#757575" Text="Calories:" HorizontalOptions="Center"/>
+                <Label Grid.Row="0" Grid.Column="1" FontSize="Medium" TextColor="#757575" Text="{Binding Path=nutrients.calories}" HorizontalOptions="Center"/>
+
+                <Label Grid.Row="1" Grid.Column="0" FontSize="Medium" TextColor="#757575" Text="Protein:" HorizontalOptions="Center"/>
+                <Label Grid.Row="1" Grid.Column="1" FontSize="Medium" TextColor="#757575" Text="{Binding Path=nutrients.protein}" HorizontalOptions="Center"/>
+
+                <Label Grid.Row="2" Grid.Column="0" FontSize="Medium" TextColor="#757575" Text="Fat:" HorizontalOptions="Center"/>
+                <Label Grid.Row="2" Grid.Column="1" FontSize="Medium" TextColor="#757575" Text="{Binding Path=nutrients.fat}" HorizontalOptions="Center"/>
+
+                <Label Grid.Row="3" Grid.Column="0" FontSize="Medium" TextColor="#757575" Text="Carbohydrates:" HorizontalOptions="Center"/>
+                <Label Grid.Row="3" Grid.Column="1" FontSize="Medium" TextColor="#757575" Text="{Binding Path=nutrients.carbohydrates}" HorizontalOptions="Center"/>
+            </Grid>
+
         </StackLayout>
     </Grid>
 

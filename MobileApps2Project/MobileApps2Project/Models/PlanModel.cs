@@ -4,9 +4,6 @@ using System.Text;
 
 namespace MobileApps2Project.Models
 {
-
-    class PlanModel
-    {
         /*
          * Model for Meal Plan 
          */
@@ -32,5 +29,5 @@ namespace MobileApps2Project.Models
             public List<Meal> meals { get; set; }
             public Nutrients nutrients { get; set; }
         }
-    }
+
 }

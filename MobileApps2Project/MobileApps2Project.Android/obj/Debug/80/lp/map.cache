@@ -26,3 +26,7 @@ Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 netstandard
+Microsoft.Threading.Tasks
+Microsoft.Threading.Tasks.Extensions
+System.Net.Http.Extensions
+System.Net.Http.Primitives

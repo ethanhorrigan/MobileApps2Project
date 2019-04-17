@@ -28,6 +28,18 @@
     <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\MobileApps2Project.UWP.exe">
       <PackagePath>entrypoint\MobileApps2Project.UWP.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lurch\.nuget\packages\microsoft.bcl.async\1.0.168\lib\win8\Microsoft.Threading.Tasks.Extensions.dll">
+      <PackagePath>Microsoft.Threading.Tasks.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lurch\.nuget\packages\microsoft.bcl.async\1.0.168\lib\win8\Microsoft.Threading.Tasks.dll">
+      <PackagePath>Microsoft.Threading.Tasks.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lurch\.nuget\packages\microsoft.net.http\2.2.29\lib\win8\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lurch\.nuget\packages\microsoft.net.http\2.2.29\lib\win8\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lurch\.nuget\packages\newtonsoft.json\12.0.1\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
@@ -523,6 +535,9 @@
     <AppxPackagedFile Include="C:\Users\Lurch\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\lib\uap10.0.15138\netstandard.dll">
       <PackagePath>netstandard.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lurch\.nuget\packages\unirest-api\1.0.7.6\lib\unirest-net.dll">
+      <PackagePath>unirest-net.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lurch\.nuget\packages\xamarin.forms\3.4.0.1008975\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
     </AppxPackagedFile>
@@ -537,6 +552,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\bin\Debug\netstandard2.0\MobileApps2Project.dll">
       <PackagePath>MobileApps2Project.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project\bin\Debug\netstandard2.0\MobileApps2Project.dll.config">
+      <PackagePath>MobileApps2Project.dll.config</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
