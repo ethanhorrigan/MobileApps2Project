@@ -8,10 +8,6 @@ D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\Core\AppxManifest.xml
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\Core\MobileApps2Project.UWP.exe
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\MobileApps2Project.UWP.build.appxrecipe
-D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.dll
-D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\Microsoft.Threading.Tasks.dll
-D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\System.Net.Http.Extensions.dll
-D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\System.Net.Http.Primitives.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\Newtonsoft.Json.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\Newtonsoft.Json.pdb
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\clrcompression.dll
@@ -178,14 +174,12 @@ D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\WindowsBase.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\mscorlib.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\netstandard.dll
-D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\unirest-net.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\Xamarin.Forms.Core.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\Xamarin.Forms.Platform.UAP.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\Xamarin.Forms.Platform.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\Xamarin.Forms.Xaml.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\MobileApps2Project.dll
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\MobileApps2Project.pdb
-D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\MobileApps2Project.dll.config
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\obj\x86\Debug\MobileApps2Project.UWP.csprojAssemblyReference.cache
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\obj\x86\Debug\App.g.i.cs
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\obj\x86\Debug\App.g.cs
@@ -306,3 +300,9 @@ D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\obj\x86\Debug\ProjectArchitectures.txt
+D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\Microsoft.Threading.Tasks.Extensions.dll
+D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\Microsoft.Threading.Tasks.dll
+D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\System.Net.Http.Extensions.dll
+D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\System.Net.Http.Primitives.dll
+D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\unirest-net.dll
+D:\Third Year Projects\MobileApps2Project\MobileApps2Project\MobileApps2Project.UWP\bin\x86\Debug\MobileApps2Project.dll.config

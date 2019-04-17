@@ -13,7 +13,7 @@ namespace MobileApps2Project.Classes
         private const string apiKey = "a95634e82cmshc9d9f478728c886p14c5f5jsn5725ed7973e3";
         private const string host = "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com";
 
-
+        
         public static T GetApiData<T>(string URL)
         {
             HttpRequest request = Unirest.get(URL).header("X-RapidAPI-Key", apiKey);
@@ -25,5 +25,6 @@ namespace MobileApps2Project.Classes
 
             return result;
         }
+        
     }
 }
