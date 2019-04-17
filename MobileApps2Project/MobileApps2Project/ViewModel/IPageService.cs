@@ -9,8 +9,7 @@ namespace MobileApps2Project.ViewModel
  
         public interface IPageService
         {
-            // Method declarations 
             Task PushAsync(Page page);
-            Task<bool> DisplayAlert(string title, string message, string ok, string cancel);
+            Task<bool> DisplayAlert(string t, string m, string v, string q);
         }
 }

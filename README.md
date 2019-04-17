@@ -1,14 +1,17 @@
 
 # Mobile Applications 2 Project (3rd Year)
 
-
+CalPlan is a Calorie Planner which generates a meal plan depending on your BMR (Basal Metabolic Rate) aka Calorie Intake per day.
+This app calculates your BMR & then generates a meal plan (Breakfast, Lunch & Dinner) depending on your BMR.
 
 ## Getting Started
 
+Clone the repository
+```
+https://github.com/ethanhorrigan/MobileApps2Project.git
+```
 
-
-## Using the Program
-
+Install Xamarin Essentials, Newtonsoft.Json & Unirest NuGet Packages
 
 ## Built With
 
@@ -19,9 +22,9 @@
 
 ## NuGet Packages
 
-* Xamarin Essentials
-* Newtonsoft.Json
-* Unirest-APIMATIC
+* Xamarin Essentials - Used for Vibration Capabilities
+* Newtonsoft.Json - Converting JSON data
+* Unirest-APIMATIC - Making HttpRequests to the API
 
 ## Art
 

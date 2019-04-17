@@ -81,19 +81,16 @@ namespace MobileApps2Project
                 if (age >= 10 && age <= 17)
                 {
                     bmr = 17.7 * weight + 657;
-                    System.Diagnostics.Debug.WriteLine("[Male]: 10 - 17: " + bmr + "");
                 }
                 //18 - 29 years BMR: 15.1 x weight +692
                 else if (age >= 18 && age <= 29)
                 {
                     bmr = 15.1 * weight + 692;
-                    System.Diagnostics.Debug.WriteLine("[Male]: 18 - 29: " + bmr + "");
                 }
                 //30-59 years BMR: 11.5 x weight + 873
                 else
                 {
                     bmr = 11.5 * weight + 873;
-                    System.Diagnostics.Debug.WriteLine("[Male]: 30 - 59: " + bmr + "");
                 }
             }
 

@@ -36,6 +36,11 @@ namespace MobileApps2Project.ViewModel
             getMealPlan();
         }
 
+        /*
+         * This method creates the query for the API Call to the Spoonacular API, bmr is used to make the call depending on the BMR that was calculated
+         * Images are created from the image links given in the call.
+         * catches an error if the API call cannot be made (e.g. no internet access)
+         */
         private void getMealPlan()
         {
             Task.Factory.StartNew(() =>
@@ -46,11 +51,10 @@ namespace MobileApps2Project.ViewModel
 
                     Result = Utils.GetApiData<RootObject>(url);
                     Meals = Result.meals;
-                    System.Diagnostics.Debug.WriteLine(Meals[1].title);
 
 
-                    //API call did not give direct link to image, so using the Documentation for the API I could get image from the Meal ID 
-                    // https://spoonacular.com/food-api/docs/show-images
+                    /*API call did not give direct link to image, so using the Documentation for the API I could get image from the Meal ID 
+                    // https://spoonacular.com/food-api/docs/show-images*/
 
                     for (int i = 0; i < Meals.Count; ++i)
                     {
@@ -60,7 +64,7 @@ namespace MobileApps2Project.ViewModel
                 }
                 catch (Exception)
                 {
-                    _pageService.DisplayAlert("Error", "Error loading", "OK", "Quit");
+                    _pageService.DisplayAlert("Error", "Error Connecting..", "Continue", "Quit");
                 }
             });
         }

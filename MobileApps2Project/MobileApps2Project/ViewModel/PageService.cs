@@ -8,16 +8,14 @@ namespace MobileApps2Project.ViewModel
 {
         public class PageService : IPageService
         {
-            // Method to get the current page and pass in the new page to be pushed onto the navigation stack
-            // This can be used throughout the model views
             public async Task PushAsync(Page page)
             {
                 await Application.Current.MainPage.Navigation.PushAsync(page);
             }
 
-            public async Task<bool> DisplayAlert(string title, string message, string ok, string cancel)
+            public async Task<bool> Alert(string t, string m, string v, string q)
             {
-                return await Application.Current.MainPage.DisplayAlert(title, message, ok, cancel);
+                return await Application.Current.MainPage.DisplayAlert(t, m, v, q);
             }
         }
     }

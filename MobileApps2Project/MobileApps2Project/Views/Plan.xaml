@@ -33,10 +33,10 @@
         </Grid.RowDefinitions>
 
 
-
+         <!--HasUnevenRows fixed issues when displaying on android device-->
         <StackLayout Grid.Row="1" Orientation="Vertical" HorizontalOptions="Center">
             <ListView x:Name="lvMeals" Margin="6, 6, 6, 0" ItemsSource="{Binding Meals, Mode=TwoWay}"
-ItemTemplate="{StaticResource MealsTemp}"  SeparatorVisibility="Default" SeparatorColor="#dcedc8" ItemSelected="LvMeals_ItemSelected"/>
+ItemTemplate="{StaticResource MealsTemp}"  HasUnevenRows="True" SeparatorVisibility="Default" SeparatorColor="#dcedc8" ItemSelected="LvMeals_ItemSelected"/>
         </StackLayout>
 
 
