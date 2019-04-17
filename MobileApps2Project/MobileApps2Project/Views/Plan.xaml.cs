@@ -38,7 +38,7 @@ namespace MobileApps2Project
 
         private void SaveBtn_Clicked(object sender, EventArgs e)
         {
-            var currentuserID = (Application.Current.Properties["title "].ToString());
+            //var currentuserID = (Application.Current.Properties["title "].ToString());
         }
     }
 }
